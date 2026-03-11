@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = en>
+  <head>
+    <title>Contact Page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact page for my website">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  </head>
+  <header>
+    <img src="images/teamCrest.bmp" alt="An abstract looking logo for the website">
+    <h1>Arnold's Website</h1>
+    <div class="nav">
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='contact.html'">Contact Us</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="form">
+      <h2 id="form-header">Contact Us!</h2>
+      <form name="survey">
+        <div class="form-div">
+          <label for="name-of-user">Your Name: </label>
+          <input name="name-of-user" id="name-of-user" size="20">
+        </div>
+        <div class="form-div">
+          <label for="email">Your Email: </label>
+          <input name="email" id="email" size="20">
+        </div>
+        <div class="form-div">
+          <label for="comments">Your Comments: </label>
+          <textarea name="comments" id="comments" rows="5" cols="21"></textarea>
+        </div>
+        <div class="submit-div">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Arnold Wu</p>
+    <a href="https://realwebsite.not">Follow us on RealWebsite!</a>
+  </footer>
+</html>
